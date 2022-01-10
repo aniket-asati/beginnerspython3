@@ -13,6 +13,7 @@ def factorial(n, depth=1):
         return result
 
 
+# Calling function and printing results
 print('Calling factorial( 5 )')
 print(factorial(5))
 
@@ -26,4 +27,6 @@ def tail_factorial(n, accumulator=1):
         return tail_factorial(n - 1, accumulator * n)
 
 
+# Calling function and printing results
 print(tail_factorial(5))
+
